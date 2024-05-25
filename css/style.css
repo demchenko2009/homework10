@@ -10,7 +10,16 @@
 --heder-text: #212121;
 --logo-color: #000;
 }
-
+h1,h2,h3,h4,h5,h6,p {
+    margin: 0;
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
 body {
     font-family: "Roboto", sans-serif;
     color: var(--logo-color);
@@ -18,7 +27,7 @@ body {
 h1{
     background-color: #212121;
 }
-.link-logo {
+.heder-logo {
     color:var(--aditional-color);
     font-family: "Raleway", sans-serif;
 font-size: 26px;
@@ -34,7 +43,7 @@ font-weight: 700;
 line-height: 1.38;
 letter-spacing: 0.78px;
 }
-.pages {
+.nav-link {
     color: var(--heder-text);
     font-family: "Roboto", sans-serif;
 font-size: 14px;
@@ -42,11 +51,11 @@ font-weight: 500;
 line-height: 1.1;
 letter-spacing: 0.28px;
 }
-.pages:hover {
+.nav-link:hover {
     color: var(--aditional-color);
 }
     
-.list-caption {
+.nav-list {
     list-style: none;
 
 }
@@ -61,10 +70,10 @@ letter-spacing: 0.28px;
 .heder-contact:hover {
 color: var(--aditional-color);
 }
-.list-description {
+.heder-list {
     list-style: none;
 }
-.section-title {
+.services-title {
     color:var(--accent-color);
 text-align: center;
 font-family: "Roboto";
@@ -74,7 +83,7 @@ line-height: 1.36; /* 136.364% */
 letter-spacing: 2.64px;
 text-transform: uppercase;
 }
-.button {
+.services-button {
     color:var(--background-color);
     text-align: center;
     font-size: 16px;
@@ -82,13 +91,13 @@ text-transform: uppercase;
     line-height: 1.87; /* 187.5% */
     letter-spacing: 0.96px;
 }
-.button:hover {
+.services-button:hover {
     color: var(--aditional-color);
 }
-.button:focus {
+.services-button:focus {
     color: var(--aditional-color);
 }
-.section-subtitle {
+.deteils-title {
     color: var(--heder-text);
 font-family: "Roboto", sans-serif; 
 font-size: 14px;
@@ -97,10 +106,10 @@ line-height: 1.14;
 letter-spacing: 0.42px;
 text-transform: uppercase;
 }
- .section-deskription {
+ .deteils-list {
     list-style: none;
  }
- .section-text {
+ .deteils-text {
     color: var(--text-color);
 font-family:  "Roboto", sans-serif;
 font-size: 14px;
@@ -108,7 +117,7 @@ font-weight: 400;
 line-height: 1.71; /* 171.429% */
 letter-spacing: 0.42px;
  }
- .subtitle-classes {
+ .work-title {
     color: var(--heder-text);
 text-align: center;
 font-family:  "Roboto", sans-serif;
@@ -117,11 +126,11 @@ font-weight: 700;
 line-height: 1.16;
 letter-spacing: 1.08px;
  }
- .imeges-list {
+ .work-list {
     list-style: none;
  }
- .company-subtitle {
-    color: var(--heder-text);
+ .team-title {
+  color: var(--heder-text);
 text-align: center;
 font-family:  "Roboto", sans-serif;
 font-size: 36px;
@@ -129,7 +138,7 @@ font-weight: 700;
 line-height: 1.16;
 letter-spacing: 1.08px;
  }
- .company {
+ .team-deskription {
     color: var(--heder-text);
 font-family:  "Roboto", sans-serif;
 font-size: 16px;
@@ -137,7 +146,7 @@ font-weight: 500;
 line-height: 1.18;
 letter-spacing: 0.48px;
  }
- .company-text {
+ .team-text {
     color: #757575;
 font-family:"Roboto", sans-serif;
 font-size: 16px;
@@ -146,29 +155,24 @@ line-height: 1.18;
 letter-spacing: 0.48px;
 
  }
-.city {
+ .team-list {
+    list-style: none;
+ }
+.heder-contact {
     color: var(--background-section);
 font-size: 14px;
 font-weight: 400;
 line-height: 1.71; /* 171.429% */
 letter-spacing: 0.42px;
 }
-.city:hover{
+.heder-contact:hover{
     color: var(--aditional-color);
 }
 footer {
     background-color: var(--footer-color);
 }
-.footer-contact {
-    color: var(--background-section);
-font-size: 14px;
-font-weight: 400;
-line-height: 1.71; /* 171.429% */
-letter-spacing: 0.42px;
-}
-.footer-contact:hover{
-    color: var(--aditional-color);
-}
- .company-list {
+
+
+ .address-list {
     list-style: none;
  }
