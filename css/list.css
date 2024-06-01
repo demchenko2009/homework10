@@ -73,7 +73,9 @@ line-height: 1.62; /* 162.5% */
 letter-spacing: 0.48px;
 }
 .link-button:hover {
-    color: var(--aditional-color);
+    background-color: var(--aditional-color);
+    color: var(--background-section);
+    
 }
 .list-button {
     list-style: none;
