@@ -34,20 +34,20 @@ letter-spacing: 0.78px;
    line-height: 1.38;
    letter-spacing: 0.78px;
    }
-.nav-link {
+.peges {
 color: var(--heder-text);
     font-size: 14px;
 font-weight: 500;
 line-height: 1.1;
 letter-spacing: 0.28px;
 }
-.nav-link:hover {
+.peges:hover {
     color: var(--aditional-color);
 }
 .active {
     color: var(--aditional-color);
 }
-.nav-list {
+.list {
     list-style: none;
 }
 
