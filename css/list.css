@@ -62,7 +62,7 @@ letter-spacing: 0.28px;
     list-style: none;
 }
 .link-button {
-    color:var(--accent-color);
+    color:var(--heder-text);
 text-align: center;
 font-size: 16px;
 font-weight: 500;

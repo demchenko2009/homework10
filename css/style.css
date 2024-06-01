@@ -24,9 +24,8 @@ body {
     font-family: "Roboto", sans-serif;
     color: var(--logo-color);
 }
-h1{
-    background-color: #212121;
-}
+
+
 .heder-logo {
     color:var(--aditional-color);
     font-family: "Raleway", sans-serif;
@@ -35,6 +34,8 @@ font-weight: 700;
 line-height: 1.38;
 letter-spacing: 0.78px;
 }
+
+
 .logo-deskription {
     color: var(--logo-color);
  font-family: "Raleway", sans-serif;
@@ -43,14 +44,17 @@ font-weight: 700;
 line-height: 1.38;
 letter-spacing: 0.78px;
 }
+
+
 .nav-link {
     color: var(--heder-text);
-    font-family: "Roboto", sans-serif;
 font-size: 14px;
 font-weight: 500;
 line-height: 1.1;
 letter-spacing: 0.28px;
 }
+
+
 .nav-link:hover {
     color: var(--aditional-color);
 }
@@ -61,29 +65,37 @@ letter-spacing: 0.28px;
 }
 .heder-contact {
     color: var(--text-color);
-font-family: "Roboto";
 font-size: 14px;
 font-weight: 500;
 line-height: 1.1;
 letter-spacing: 0.28px;
 }
+
+
 .heder-contact:hover {
 color: var(--aditional-color);
 }
 .heder-list {
     list-style: none;
 }
+
+
+.services {
+    background-color: var(--footer-color);
+}
 .services-title {
     color:var(--accent-color);
 text-align: center;
-font-family: "Roboto";
 font-size: 44px;
 font-weight: 900;
 line-height: 1.36; /* 136.364% */
 letter-spacing: 2.64px;
 text-transform: uppercase;
 }
+
+
 .services-button {
+    background-color: #2196F3;
     color:var(--background-color);
     text-align: center;
     font-size: 16px;
@@ -91,36 +103,38 @@ text-transform: uppercase;
     line-height: 1.87; /* 187.5% */
     letter-spacing: 0.96px;
 }
-.services-button:hover {
-    color: var(--aditional-color);
-}
+
+
 .services-button:focus {
     color: var(--aditional-color);
 }
+
+
 .deteils-title {
     color: var(--heder-text);
-font-family: "Roboto", sans-serif; 
 font-size: 14px;
 font-weight: 700;
 line-height: 1.14;
 letter-spacing: 0.42px;
 text-transform: uppercase;
 }
+
+
  .deteils-list {
     list-style: none;
  }
  .deteils-text {
     color: var(--text-color);
-font-family:  "Roboto", sans-serif;
 font-size: 14px;
 font-weight: 400;
 line-height: 1.71; /* 171.429% */
 letter-spacing: 0.42px;
  }
+
+
  .work-title {
     color: var(--heder-text);
 text-align: center;
-font-family:  "Roboto", sans-serif;
 font-size: 36px;
 font-weight: 700;
 line-height: 1.16;
@@ -129,26 +143,29 @@ letter-spacing: 1.08px;
  .work-list {
     list-style: none;
  }
+
+
  .team-title {
   color: var(--heder-text);
 text-align: center;
-font-family:  "Roboto", sans-serif;
 font-size: 36px;
 font-weight: 700;
 line-height: 1.16;
 letter-spacing: 1.08px;
  }
+
+
  .team-deskription {
     color: var(--heder-text);
-font-family:  "Roboto", sans-serif;
 font-size: 16px;
 font-weight: 500;
 line-height: 1.18;
 letter-spacing: 0.48px;
  }
+
+
  .team-text {
-    color: #757575;
-font-family:"Roboto", sans-serif;
+    color: var(--text-color);
 font-size: 16px;
 font-weight: 400;
 line-height: 1.18;
@@ -158,8 +175,18 @@ letter-spacing: 0.48px;
  .team-list {
     list-style: none;
  }
-.heder-contact {
-    color: var(--background-section);
+
+
+ .footer-logo {
+    color: var(--background-color);
+    font-family: "Raleway", sans-serif;
+   font-size: 26px;
+   font-weight: 700;
+   line-height: 1.38;
+   letter-spacing: 0.78px;
+ }
+.footer-contack {
+    color: var(--background-color);
 font-size: 14px;
 font-weight: 400;
 line-height: 1.71; /* 171.429% */
