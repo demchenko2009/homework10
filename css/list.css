@@ -34,22 +34,23 @@ letter-spacing: 0.78px;
    line-height: 1.38;
    letter-spacing: 0.78px;
    }
-.peges {
+.nav-link {
 color: var(--heder-text);
     font-size: 14px;
 font-weight: 500;
 line-height: 1.1;
 letter-spacing: 0.28px;
 }
-.peges:hover {
+.nav-link:hover {
     color: var(--aditional-color);
 }
 .active {
     color: var(--aditional-color);
 }
-.list {
+.nav-list {
     list-style: none;
 }
+
 .contant {
 color: var(--text-color);
 font-size: 14px;
