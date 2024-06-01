@@ -44,7 +44,9 @@ letter-spacing: 0.28px;
 .peges:hover {
     color: var(--aditional-color);
 }
-
+.active {
+    color: var(--aditional-color);
+}
 .list {
     list-style: none;
 }

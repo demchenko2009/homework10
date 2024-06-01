@@ -53,7 +53,9 @@ font-weight: 500;
 line-height: 1.1;
 letter-spacing: 0.28px;
 }
-
+.active {
+    color: var(--aditional-color);
+}
 
 .nav-link:hover {
     color: var(--aditional-color);
