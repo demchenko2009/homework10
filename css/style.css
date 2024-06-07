@@ -199,9 +199,17 @@ letter-spacing: 0.48px;
    letter-spacing: 0.78px;
  }
 
+.footer-city  {
+    color: var(--background-color);
+    font-size: 14px;
+font-weight: 400;
+line-height: 1.71; /* 171.429% */
+letter-spacing: 0.42px;
+}
+
 
 .footer-contack {
-    color: var(--background-color);
+    color: var(--text-color);
 font-size: 14px;
 font-weight: 400;
 line-height: 1.71; /* 171.429% */
@@ -214,7 +222,7 @@ letter-spacing: 0.42px;
 }
 
 footer {
-    background-color: var(--footer-color);
+    background-color: var(--heder-text);
 }
 
 
