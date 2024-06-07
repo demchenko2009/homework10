@@ -14,7 +14,14 @@ h1,h2,h3,h4,h5,h6,p {
 ul {
     margin: 0;
     padding: 0;
+    list-style: none;
 }
+a {
+    text-decoration: none;
+}
+img {display: block;}
+
+
 body {
     font-family: "Roboto", sans-serif; 
 }
@@ -26,6 +33,8 @@ font-weight: 700;
 line-height: 1.38;
 letter-spacing: 0.78px;
 }
+
+
 .logo-footer {
     color: var(--logo-color);
     font-family: "Raleway", sans-serif;
@@ -34,6 +43,8 @@ letter-spacing: 0.78px;
    line-height: 1.38;
    letter-spacing: 0.78px;
    }
+
+
 .peges {
 color: var(--heder-text);
     font-size: 14px;
@@ -44,6 +55,8 @@ letter-spacing: 0.28px;
 .peges:hover {
     color: var(--aditional-color);
 }
+
+
 .active {
     color: var(--aditional-color);
 }
@@ -52,15 +65,15 @@ letter-spacing: 0.28px;
 }
 
 .contant {
-color: var(--text-color);
-font-size: 14px;
-font-weight: 500;
-line-height: 1.14;
-letter-spacing: 0.28px;
+    color: var(--background-color);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.71; /* 171.429% */
+    letter-spacing: 0.42px;
 }
-.contant:hover {
-    color: var(--aditional-color);
-} 
+
+
+
 .list-kontact {
     list-style: none;
 }
@@ -72,6 +85,8 @@ font-weight: 500;
 line-height: 1.62; /* 162.5% */
 letter-spacing: 0.48px;
 }
+
+
 .link-button:hover {
     background-color: var(--aditional-color);
     color: var(--background-section);
@@ -80,6 +95,8 @@ letter-spacing: 0.48px;
 .list-button {
     list-style: none;
 }
+
+
 .teitle {
     color:var(--heder-text);
 font-size: 18px;
@@ -87,6 +104,8 @@ font-weight: 700;
 line-height: 2; /* 200% */
 letter-spacing: 1.08px;
 }
+
+
 .teitle-text {
     color: var(--text-color);
 font-size: 16px;
@@ -94,13 +113,8 @@ font-weight: 400;
 line-height: 1.87; /* 187.5% */
 letter-spacing: 0.48px;
 }
-.city-company {
-    color:var(--background-color);
-font-size: 14px;
-font-weight: 400;
-line-height: 1.71; /* 171.429% */
-letter-spacing: 0.42px;
-}
+
+
 .list-img {
     list-style: none;
 }
