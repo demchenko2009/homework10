@@ -45,6 +45,9 @@ body {
     padding-top: 24px;
     padding-bottom: 25px;
 }
+
+
+
 .heder-logo {
     color:var(--aditional-color);
     font-family: "Raleway", sans-serif;
@@ -62,8 +65,22 @@ font-size: 26px;
 font-weight: 700;
 line-height: 1.38;
 letter-spacing: 0.78px;
+margin-right: 93px;;
 }
 
+.heder-box {
+    display: flex;
+    align-items: center;
+}
+.heder-nav {
+    display: flex;
+    margin-right: auto;
+}
+
+.nav-list {
+    display: flex;
+    gap: 50px;
+}
 
 .nav-link {
     color: var(--heder-text);
@@ -71,7 +88,12 @@ font-size: 14px;
 font-weight: 500;
 line-height: 1.1;
 letter-spacing: 0.28px;
+
 }
+.heder-list {
+    margin-left: 44px;
+}
+
 .active {
     color: var(--aditional-color);
 }
@@ -84,6 +106,11 @@ letter-spacing: 0.28px;
     list-style: none;
 
 }
+
+.heder-list {
+    display: flex;
+  gap: 50px;
+}
 .heder-contact {
     color: var(--text-color);
 font-size: 14px;
@@ -95,6 +122,7 @@ letter-spacing: 0.28px;
 
 .heder-contact:hover {
 color: var(--aditional-color);
+
 }
 .heder-list {
     list-style: none;
@@ -106,7 +134,6 @@ color: var(--aditional-color);
     padding-top: 200px;
     padding-bottom: 200px;
 }
-
 
 .services-title {
     color:var(--accent-color);
@@ -127,6 +154,9 @@ text-transform: uppercase;
     font-weight: 700;
     line-height: 1.87; /* 187.5% */
     letter-spacing: 0.96px;
+    margin-top: 30px;
+ width: 216px;
+ height: 50px;
 }
 
 
@@ -137,6 +167,15 @@ text-transform: uppercase;
 .detalis {
     padding-top: 94px;
 }
+
+.deteils-list {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+
+ }
+
+
 .deteils-title {
     color: var(--heder-text);
 font-size: 14px;
@@ -144,12 +183,10 @@ font-weight: 700;
 line-height: 1.14;
 letter-spacing: 0.42px;
 text-transform: uppercase;
+margin-bottom: 10px;
 }
 
 
- .deteils-list {
-    list-style: none;
- }
  .deteils-text {
     color: var(--text-color);
 font-size: 14px;
@@ -163,6 +200,13 @@ letter-spacing: 0.42px;
     padding-bottom: 94px;
 }
 
+
+.work-list {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+ }
+
  .work-title {
     color: var(--heder-text);
 text-align: center;
@@ -170,10 +214,9 @@ font-size: 36px;
 font-weight: 700;
 line-height: 1.16;
 letter-spacing: 1.08px;
+margin-bottom: 50px;
  }
- .work-list {
-    list-style: none;
- }
+
 
 
 .team {
@@ -189,8 +232,21 @@ font-size: 36px;
 font-weight: 700;
 line-height: 1.16;
 letter-spacing: 1.08px;
+margin-bottom: 50px;
  }
 
+ .team-list {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    text-align: center;
+
+ }
+ .team-img {
+    width: 270px;
+    height: 260px;
+    margin-bottom: 30px;
+ }
 
  .team-deskription {
     color: var(--heder-text);
@@ -198,6 +254,7 @@ font-size: 16px;
 font-weight: 500;
 line-height: 1.18;
 letter-spacing: 0.48px;
+margin-bottom: 10px;
  }
 
 
@@ -209,13 +266,14 @@ line-height: 1.18;
 letter-spacing: 0.48px;
 
  }
- .team-list {
-    list-style: none;
- }
+
 
 .footer {
     padding-top: 60px;
     padding-bottom: 60px;
+}
+.logo {
+    margin-bottom: 20px;
 }
 
  .footer-logo {
@@ -225,6 +283,10 @@ letter-spacing: 0.48px;
    font-weight: 700;
    line-height: 1.38;
    letter-spacing: 0.78px;
+ }
+
+ .address-list {
+    margin-bottom: 9px;
  }
 
 .footer-city  {
@@ -245,9 +307,7 @@ letter-spacing: 0.42px;
 }
 
 
-.heder-contact:hover{
-    color: var(--aditional-color);
-}
+
 
 footer {
     background-color: var(--heder-text);
