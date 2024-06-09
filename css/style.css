@@ -98,7 +98,8 @@ letter-spacing: 0.28px;
     color: var(--aditional-color);
 }
 
-.nav-link:hover {
+.nav-link:hover,
+.nav-link:focus {
     color: var(--aditional-color);
 }
     
@@ -120,7 +121,9 @@ letter-spacing: 0.28px;
 }
 
 
-.heder-contact:hover {
+
+.heder-contact:hover,
+.heder-contact:focus {
 color: var(--aditional-color);
 
 }
@@ -128,11 +131,11 @@ color: var(--aditional-color);
     list-style: none;
 }
 
-
 .services {
     background-color: var(--footer-color);
     padding-top: 200px;
     padding-bottom: 200px;
+    text-align: center;
 }
 
 .services-title {
@@ -143,11 +146,13 @@ font-weight: 900;
 line-height: 1.36; /* 136.364% */
 letter-spacing: 2.64px;
 text-transform: uppercase;
+width: 696px;
+margin-right: auto;
+margin-left: auto;
 }
 
-
 .services-button {
-    background-color: #2196F3;
+    background-color: var(--aditional-color);
     color:var(--background-color);
     text-align: center;
     font-size: 16px;
