@@ -38,6 +38,10 @@ body {
 padding-top: 24px;
 padding-bottom: 25px;
 }
+.header-box {
+    display: flex;
+    align-items: center;
+}
 .logo-heder {
     color: var(--aditional-color);
     font-family: "Raleway", sans-serif;
@@ -55,8 +59,17 @@ letter-spacing: 0.78px;
    font-weight: 700;
    line-height: 1.38;
    letter-spacing: 0.78px;
+   margin-right: 93px;
    }
+   .nav {display: flex;
+    margin-right: auto;
+}
 
+   .list {
+    list-style: none;
+    display: flex;
+    gap: 50px;
+   }
 
 .peges {
 color: var(--heder-text);
@@ -65,8 +78,27 @@ font-weight: 500;
 line-height: 1.1;
 letter-spacing: 0.28px;
 }
-.peges:hover {
+.peges:hover,
+.peges:focus {
     color: var(--aditional-color);
+}
+
+.list-kontact {
+    list-style: none;
+    display: flex;
+    gap: 50px;
+}
+
+.contant {
+    color: var(--text-color);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.71; /* 171.429% */
+    letter-spacing: 0.42px;
+}
+.contant:hover,
+.contant:focus {
+     color: var(--aditional-color);
 }
 
 .seiten {
@@ -77,32 +109,14 @@ letter-spacing: 0.28px;
 .active {
     color: var(--aditional-color);
 }
-.list {
+.list-button {
+    display: flex;
+justify-content: center;
+    gap: 30px;
     list-style: none;
 }
 
-.footer-addres {
-    color: var(--background-color);
-    font-size: 14px;
-font-weight: 400;
-line-height: 1.71; /* 171.429% */
-letter-spacing: 0.42px;
-}
 
-
-.contant {
-    color: var(--text-color);
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 1.71; /* 171.429% */
-    letter-spacing: 0.42px;
-}
-
-
-
-.list-kontact {
-    list-style: none;
-}
 .link-button {
     color:var(--heder-text);
 text-align: center;
@@ -110,16 +124,29 @@ font-size: 16px;
 font-weight: 500;
 line-height: 1.62; /* 162.5% */
 letter-spacing: 0.48px;
+margin-top: 33px;
+width: 125px;
+height: 38px;
 }
 
-
-.link-button:hover {
+.link-button:hover,
+.link-button:focus {
     background-color: var(--aditional-color);
     color: var(--background-section);
     
 }
-.list-button {
+
+
+.list-img {
+    display: flex;
+    gap: 30px;
     list-style: none;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+.bay-img {
+    width: 370px; ;
+    height: 294px; ;
 }
 
 
@@ -129,8 +156,8 @@ font-size: 18px;
 font-weight: 700;
 line-height: 2; /* 200% */
 letter-spacing: 1.08px;
+margin-top: 20px;
 }
-
 
 .teitle-text {
     color: var(--text-color);
@@ -138,13 +165,8 @@ font-size: 16px;
 font-weight: 400;
 line-height: 1.87; /* 187.5% */
 letter-spacing: 0.48px;
+margin-top: 4px;
 }
-
-
-.list-img {
-    list-style: none;
-}
-
 
 .logo-disk {
     color: var(--background-color);
@@ -155,8 +177,29 @@ line-height: 1.38;
 letter-spacing: 0.78px;
 }
 
+
+.footer-addres {
+    color: var(--background-color);
+    font-size: 14px;
+font-weight: 400;
+line-height: 1.71; /* 171.429% */
+letter-spacing: 0.42px;
+margin-top: 20px;
+}
+
+
+
+
 .foter {
     background-color: var(--footer-color);
     padding-top: 60px;
     padding-bottom: 60px;
+}
+.item-addres {
+    color: var(--text-color);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.71; /* 171.429% */
+    letter-spacing: 0.42px;
+    margin-top: 9px;
 }
