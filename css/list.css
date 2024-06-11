@@ -181,10 +181,7 @@ letter-spacing: 0.48px;
 margin-top: 4px;
 }
 
-.logo-web {
-display: block;
-margin-bottom: 20px;
-}
+
 
 .logo-disk {
     color: var(--background-color);
@@ -205,13 +202,23 @@ letter-spacing: 0.42px;
 }
 
 
-
+.logo-web {
+    display: block;
+    margin-bottom: 20px;
+    }
 
 .foter {
     background-color: var(--footer-color);
     padding-top: 60px;
     padding-bottom: 60px;
 }
+
+.footer-list {
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+}
+
 .item-addres {
     display: block;
     color: var(--text-color);
@@ -219,5 +226,4 @@ letter-spacing: 0.42px;
     font-weight: 400;
     line-height: 1.71; /* 171.429% */
     letter-spacing: 0.42px;
-    margin-top: 9px;
 }
