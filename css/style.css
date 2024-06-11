@@ -46,6 +46,9 @@ body {
     padding-bottom: 25px;
 }
 
+.logos {
+    margin-right: 93px;;
+}
 
 
 .heder-logo {
@@ -65,7 +68,7 @@ font-size: 26px;
 font-weight: 700;
 line-height: 1.38;
 letter-spacing: 0.78px;
-margin-right: 93px;;
+
 }
 
 .heder-box {
@@ -157,8 +160,10 @@ margin-left: auto;
     line-height: 1.87; /* 187.5% */
     letter-spacing: 0.96px;
     margin-top: 30px;
- width: 216px;
- height: 50px;
+padding-top: 10px;
+padding-bottom: 10px;
+padding-left: 32px;
+padding-right: 32px;
 }
 
 
@@ -280,9 +285,7 @@ letter-spacing: 0.48px;
     padding-top: 60px;
     padding-bottom: 60px;
 }
-.logo {
-    margin-bottom: 20px;
-}
+
 
  .footer-logo {
     color: var(--background-color);
@@ -315,6 +318,7 @@ font-size: 14px;
 font-weight: 400;
 line-height: 1.71; /* 171.429% */
 letter-spacing: 0.42px;
+display: block;
 margin-top: 9px;
 }
 
@@ -324,6 +328,11 @@ margin-top: 9px;
 footer {
     background-color: var(--heder-text);
 }
+.logo {
+    display: block;
+    margin-bottom: 20px;
+}
+
 
 
  .address-list {
