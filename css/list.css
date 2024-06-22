@@ -150,6 +150,19 @@ border-radius: 4px;
     margin-top: 50px;
     flex-wrap: wrap;
 }
+
+.item-img {
+
+    flex-basis: calc((100% - 60px) /3 );
+}
+
+.item-img div{
+padding: 20px 24px;
+}
+
+
+
+
 .bay-img {
     width: 370px;
     height: 294px;
@@ -161,6 +174,9 @@ border-radius: 4px;
     padding-left: 24px;
     padding-right: 24px;
   background-color: var(--background-section);
+  border-left: 1px solid #FFFFFF;
+  border-right: 1px solid #FFFFFF;
+  border-bottom: 1px solid #FFFFFF;
 
 }
 
